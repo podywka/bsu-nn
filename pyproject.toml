@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "bsu-nn"
+version = "0.1.0"
+description = ""
+authors = ["ars <a.moguchii@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+numpy = "^2.3.2"
+pandas = "^2.3.2"
+matplotlib = "^3.10.6"
+scikit-learn = "^1.7.1"
+torch = "^2.8.0"
+torchvision = "^0.23.0"
+keras = "^3.11.3"
+tensorflow = "^2.20.0"
+kagglehub = "^0.3.13"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.4.7"
+ipykernel = "^6.30.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
