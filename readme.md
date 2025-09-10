@@ -1,10 +1,12 @@
 # Инициализация проекта
 
 ```
-poetry init
+# *install git lfs utility*
 
-poetry add numpy pandas matplotlib scikit-learn torch torchvision
-poetry add jupyterlab ipykernel --group dev
+git lfs pull
+git lfs ls-files
+
+poetry install
 
 poetry run python -m ipykernel install --user --name=neural_networks --display-name "neural_networks"
 ```
